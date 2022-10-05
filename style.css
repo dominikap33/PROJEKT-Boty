@@ -32,7 +32,7 @@ body {
     align-items: center;
 }
 
-/*nedokážu to dát na střed jinak než přes margin auto */
+
 .container {
     display: flex;
     width: 670px;
@@ -115,12 +115,13 @@ h2 {
 
 li {
     padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
     list-style: none;
     font-size: 14px;
     font-weight: 400;
     cursor: pointer;
+    flex-basis: 20%;
     
 }
 
@@ -152,6 +153,7 @@ li:hover {
 ul {
     padding: 0;
     margin: 0;
+    display: flex;
 }
 
 .tlacitko {
